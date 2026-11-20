@@ -1,0 +1,19 @@
+.drinks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+  list-style: none;
+}
+
+.drinks-grid > li {
+  min-width: 0;
+  background-color: #3b414d;
+  cursor: pointer;
+}
+
+.seach-field {
+
+}

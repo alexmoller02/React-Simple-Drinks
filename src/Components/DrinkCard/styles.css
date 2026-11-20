@@ -1,0 +1,36 @@
+.drink-card-link {
+  color: inherit;
+  text-decoration: none;
+}
+.drink-card.MuiCard-root {
+  border-radius: 14px;
+  transition: transform 220ms ease, box-shadow 220ms ease;
+}
+
+.drink-card-image {
+  overflow: hidden;
+}
+
+.drink-card-image img {
+  transition: transform 350ms ease;
+}
+
+@media (hover: hover) {
+  .drink-card.MuiCard-root:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 28px rgb(0 0 0 / 22%);
+  }
+
+  .drink-card:hover .drink-card-image img {
+    transform: scale(1.05);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .drink-card.MuiCard-root,
+  .drink-card-image img {
+    transition: none;
+    transform: none;
+  }
+}
+
