@@ -2,6 +2,7 @@
   "name": "drinks-api",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://alexmoller02.github.io/React-Simple-Drinks/",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
